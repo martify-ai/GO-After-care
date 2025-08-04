@@ -1,14 +1,16 @@
-.page-hero{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-    url('./images/contact-bg.jpg') no-repeat center/cover;
-height: 50vh;
-display: flex;
-align-items: center;
-text-align: center;
-color: var(--white);
-padding-top: 80px;
+.page-hero {
+    background-color: #903D71;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+    padding-top: 80px;
 }
+
+
 /* ===== Stories Page ===== */
+
 .blog-section {
     padding: 5rem 0;
 }

@@ -1,7 +1,7 @@
 /* ===== About Page ===== */
+
 .page-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                var(--hero-bg) no-repeat center/cover;
+    background-color: #903D71;
     height: 50vh;
     display: flex;
     align-items: center;
@@ -49,6 +49,8 @@
     background: var(--light);
     text-align: center;
 }
+
+
 /* 
 .values-grid {
     display: grid;
@@ -71,8 +73,7 @@
 }
  */
 
-
- .values-grid {
+.values-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
@@ -84,7 +85,7 @@
     padding: 2rem 1.5rem;
     background: var(--white);
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease;
 }
 
@@ -99,9 +100,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(144, 61, 113, 0.1); /* Using your primary color with opacity */
+    background: rgba(144, 61, 113, 0.1);
+    /* Using your primary color with opacity */
     border-radius: 50%;
-    color: var(--primary); /* Your primary color */
+    color: var(--primary);
+    /* Your primary color */
     font-size: 2rem;
 }
 

@@ -1,9 +1,7 @@
-
 /* Contact Hero */
+
 .contact-hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                url('../images/contact-bg.jpg') no-repeat center/cover;
-    height: 50vh;
+    background-color: #903D71;
     display: flex;
     align-items: center;
     text-align: center;
@@ -27,7 +25,9 @@
     opacity: 0.9;
 }
 
+
 /* Contact Content */
+
 .contact-content {
     padding: 5rem 0;
 }
@@ -49,7 +49,9 @@
     margin: 1rem auto 2rem;
 }
 
+
 /* Contact Info Section */
+
 .contact-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -61,7 +63,7 @@
     background: var(--white);
     padding: 2.5rem 2rem;
     border-radius: 10px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
     text-align: center;
     transition: transform 0.3s ease;
 }
@@ -117,7 +119,9 @@
     transform: translateX(3px);
 }
 
+
 /* Contact Form Section */
+
 .contact-form-section {
     margin-top: 5rem;
 }
@@ -126,7 +130,7 @@
     background: var(--white);
     padding: 3rem;
     border-radius: 10px;
-    box-shadow: 0 5px 30px rgba(0,0,0,0.08);
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
     max-width: 800px;
     margin: 0 auto;
 }
@@ -198,20 +202,19 @@
     margin-right: 0.7rem;
 }
 
+
 /* Responsive Design */
+
 @media (max-width: 768px) {
     .contact-hero {
         height: 40vh;
     }
-    
     .contact-hero h1 {
         font-size: 2.2rem;
     }
-    
     .section-title {
         font-size: 1.8rem;
     }
-    
     .form-wrapper {
         padding: 2rem;
     }
@@ -222,11 +225,9 @@
         height: 35vh;
         padding-top: 70px;
     }
-    
     .contact-hero h1 {
         font-size: 1.8rem;
     }
-    
     .contact-grid {
         grid-template-columns: 1fr;
     }
