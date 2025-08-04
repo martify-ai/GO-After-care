@@ -1,0 +1,37 @@
+.services-hero{
+    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url('../images/contact-bg.jpg') no-repeat center/cover; */
+    background-color: #903D71;
+height: 50vh;
+display: flex;
+align-items: center;
+text-align: center;
+color: var(--white);
+padding-top: 80px;
+}
+/* ===== Services Page ===== */
+.services-list {
+    padding: 5rem 0;
+}
+
+.service-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.service-detail img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.service-text {
+    padding: 1rem;
+}
+
+.service-text h2 {
+    color: var(--primary);
+}

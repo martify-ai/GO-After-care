@@ -1,0 +1,112 @@
+/* ===== About Page ===== */
+.page-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                var(--hero-bg) no-repeat center/cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--white);
+    padding-top: 80px;
+}
+
+.mission-section {
+    padding: 5rem 0;
+    background: var(--light);
+}
+
+.mission-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.mission-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.story-section {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.story-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.story-content img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.values-section {
+    padding: 5rem 0;
+    background: var(--light);
+    text-align: center;
+}
+/* 
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.value-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.value-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+ */
+
+
+ .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.value-card {
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background: var(--white);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-10px);
+}
+
+.value-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(144, 61, 113, 0.1); /* Using your primary color with opacity */
+    border-radius: 50%;
+    color: var(--primary); /* Your primary color */
+    font-size: 2rem;
+}
+
+.value-card h3 {
+    color: var(--dark);
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
